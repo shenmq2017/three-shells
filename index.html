@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>三个贝壳网站</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<header>
+	<div class="header-top">
+		<div class="container">
+			<a href="">发布项目</a> | <a href="">寻找项目</a> | <a href="">关于我们</a>
+			<div class="ht-right"><i class="glyphicon glyphicon-earphone"></i> 400-1616-397 <button>保存到桌面</button></div>
+		</div>
+	</div>
+	<div class="header-middle">
+		<div class="container">
+			<img src="images/logo.png" alt="">
+			<form action="">
+				<input type="text" placeholder="请输入项目/企业/咨询">
+				<input type="submit" value="搜索">
+				<p class="hm-ques"><a href="">新三板是什么？</a><a href="">怎么投资新三板？</a><a href="">怎么挑选股权项目？</a></p>
+			</form>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="container">
+			<ul>
+				<a href="index.html"><li class="on">首页</li></a>
+				<a href="deals.html"><li>股权项目</li></a>
+				<a href="news.html"><li>三板资讯</li></a>
+				<a href="special.html"><li>专题栏目</li></a>
+				<a href="original.html"><li>原创研究</li></a>
+				<a href=""><li style="float: right;">三板问答</li></a>
+			</ul>
+		</div>
+	</div>
+</header>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+	</ol>   
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="images/banner01.png" alt="First slide" >
+		</div>
+		<div class="item">
+			<img src="images/banner01.png" alt="Second slide" >
+		</div>
+	</div>
+</div>
+<!-- 移动端上方导航栏 -->
+<div class="phone-nav show980">
+	<ul>
+		<a href=""><li><img src="images/icon1.png" alt=""><p>股权项目</p></li></a>
+		<a href=""><li><img src="images/icon2.png" alt=""><p>三板资讯</p></li></a>
+		<a href=""><li style="border-right: none;"><img src="images/icon3.png" alt=""><p>专题栏目</p></li></a>
+	</ul>
+</div>
+<!-- 挂牌统计，移动端不展示 -->
+<div class="index1 hide980">
+	<div class="container">
+		<div class="index1-top">
+			<h3>挂牌统计</h3>
+			<p>LISTING STATISTICS <a href=""> 个股行情/ </a> <a href=""> 三板数据/ </a></p>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">总挂牌（家）</p>
+				<p class="index1-data">11649</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">做市转让（家）</p>
+				<p class="index1-data">1383</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">协议转让（家）</p>
+				<p class="index1-data">10266</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">成交股数（万股）</p>
+				<p class="index1-data">156160.5</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">成交金额（万元）</p>
+				<p class="index1-data">71657.53</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">流通股本（亿股）</p>
+				<p class="index1-data">3398.62</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">新股挂牌</p>
+				<p class="index1-title">共<a href="" class="index1-data1">5</a>只</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">做市股票新增</p>
+				<p class="index1-title">共<a href=""  class="index1-data1">1</a>只</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">协议股票新增</p>
+				<p class="index1-title">共<a href=""  class="index1-data1">4</a>只</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">成交股票个数</p>
+				<p class="index1-title">共<a href=""  class="index1-data1">824</a>只</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">做市成交股</p>
+				<p class="index1-title">共<a href=""  class="index1-data1">456</a>只</p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<p class="index1-title">协议成交股</p>
+				<p class="index1-title">共<a href=""  class="index1-data1">368</a>只</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 三板头条，移动端部分展示 -->
+<div class="index2 hide980">
+	<div class="container">
+		<div class="index2-top">
+			<h3>三板头条</h3>
+			<p>THREE BOARD HEADLINES</p>
+		</div>
+		<div class="index2-main">
+			<div class="tabs tabs1"> 
+				<a href="#" class="active brn">三板新闻</a> <a href="#" class="brn">三板做市</a> <a href="#">三板成指</a> 
+			</div>
+			<div class="swiper-container swiper-container1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="content-slide swiper1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 股权项目，移动端展示 -->
+<div class="index3">
+	<div class="container">
+		<div class="index2-top">
+			<h3>股权项目</h3>
+			<p>QUALITY PROJECT</p>
+		</div>
+		<div class="index3-main">
+		    <div id="index3Slide" class="index3Slide" class="index-index3Slide" alt="star">
+			    <div class="img"><img src="images/1.png"/></div>
+			    <div class="img"><img src="images/2.png"/></div>
+			    <div class="img"><img src="images/3.png"/></div>
+			    <div class="img"><img src="images/4.png"/></div>
+			    <div class="img"><img src="images/5.png"/></div>
+			    <div class="index3Slide-bt"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 三板资讯，移动端展示 -->
+<div class="index2 hide980 index4">
+	<div class="container">
+		<div class="index2-top">
+			<h3>三板资讯</h3>
+			<p>INFORMATION CENTER <a href="">行业解析/</a> <a href=""> 政策解读/ </a> <a href="">大咖访谈/</a> <a href="">三板百科/</a></p>
+		</div>
+		<div class="index2-main">
+			<div class="tabs tabs3"> 
+				<a href="#" class="active brn">行业解析</a> <a href="#" class="brn">政策解读</a> <a href="#" class="brn">大咖访谈</a>  <a href="#">三板百科</a> 
+			</div>
+			<div class="swiper-container swiper-container3">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="content-slide swiper3 fix">
+							<div class="tabs tabs4"> 
+								<a href="#" class="active bbn">新三板投资者如何购买新三板股权</a> <a href="#" class="bbn">一文看懂新三板是什么？</a> <a href="#" class="bbn">新三板交易为什么不活跃</a>  <a href="#">今年已有60家上市公司盯上新三板</a> 
+							</div>
+							<div class="swiper-container swiper-container4">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide swiper4">
+										<div class="content-slide swiper4">
+											<img src="images/index4-1.png" alt="">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="content-slide swiper4">
+											<img src="images/2.png" alt="">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="content-slide swiper4">
+											<img src="images/3.png" alt="">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="content-slide swiper4">
+											<img src="images/4.png" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper3">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper3">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper3">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 专题栏目，移动端展示 -->
+<div class="index3 index5">
+	<div class="container">
+		<div class="index2-top">
+			<h3>专题栏目</h3>
+			<p>THEMATIC CENTER</p>
+		</div>
+		<div id="index5-con">
+			<ul id="index5-ul"> 
+				<li><a href="#"><img src="images/1.png"/></a></li> 
+				<li><a href="#"><img src="images/2.png"/></a></li> 
+				<li><a href="#"><img src="images/index5-1.png"/></a></li> 
+				<li><a href="#"><img src="images/3.png"/></a></li> 
+				<li><a href="#"><img src="images/4.png"/></a></li> 
+		    </ul> 
+		</div>
+	</div>
+</div>
+<!-- 原创研究，移动端不展示 -->
+<div class="index6 hide980">
+	<div class="container">
+		<div class="index2-top">
+			<h3>原创研究</h3>
+			<p>THEMATIC CENTER</p>
+		</div>
+		<div class="index2-main">
+			<div class="tabs tabs5"> 
+				<a href="#" class="active brn">推荐内容</a> <a href="#" class="brn">企业调研</a> <a href="#" class="brn">机构观点</a> <a href="#">项目分析</a>
+			</div>
+			<div class="swiper-container swiper-container5">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="content-slide swiper5">
+							<div class="swiper-container swiper-container6">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide swiper6">
+										<div class="row">
+											<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+												<img src="images/index6-1.png" alt="">
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+												<h4>中镁控股（831621）研究简报-中国领先的智慧城市最后一公里产业运营商</h4>
+												<p>投资要点： 1、 公司主营业务是钢铁、有色、玻璃等工业用耐火材料的生产和销售 。 
+												2、公司是国家级高新技术企业。公司已取得发明专利3项、实用新型专利12项，已被受理的专利申请7项，拥有自主知识产权的专有技术17项，高新技术产品14个，新产品50余种。 
+											3、全球布局，公司的产品远销韩国、日本、美国等二十多个国家，在国内与 40 多家大中型钢铁企业建立了长期稳定的供需合作关系。具备足够规模和技术力量的企业才有可能与其建立长期业务关系。</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper6">
+										<div class="row">
+											<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+												<img src="images/index6-1.png" alt="">
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+												<h4>中镁控股（831621）研究简报-中国领先的智慧城市最后一公里产业运营商</h4>
+												<p>投资要点： 1、 公司主营业务是钢铁、有色、玻璃等工业用耐火材料的生产和销售 。 
+												2、公司是国家级高新技术企业。公司已取得发明专利3项、实用新型专利12项，已被受理的专利申请7项，拥有自主知识产权的专有技术17项，高新技术产品14个，新产品50余种。 
+											3、全球布局，公司的产品远销韩国、日本、美国等二十多个国家，在国内与 40 多家大中型钢铁企业建立了长期稳定的供需合作关系。具备足够规模和技术力量的企业才有可能与其建立长期业务关系。</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper6">
+										<div class="row">
+											<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+												<img src="images/index6-1.png" alt="">
+											</div>
+											<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+												<h4>中镁控股（831621）研究简报-中国领先的智慧城市最后一公里产业运营商</h4>
+												<p>投资要点： 1、 公司主营业务是钢铁、有色、玻璃等工业用耐火材料的生产和销售 。 
+												2、公司是国家级高新技术企业。公司已取得发明专利3项、实用新型专利12项，已被受理的专利申请7项，拥有自主知识产权的专有技术17项，高新技术产品14个，新产品50余种。 
+											3、全球布局，公司的产品远销韩国、日本、美国等二十多个国家，在国内与 40 多家大中型钢铁企业建立了长期稳定的供需合作关系。具备足够规模和技术力量的企业才有可能与其建立长期业务关系。</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pagination pagination6"></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide swiper1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 swiper1-con" >
+									<div class="index2-inner row">
+										<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-left: 0;padding-right: 0;">
+											<img src="images/news1.png" alt="" style="max-width: 100%;">
+										</div>
+										<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" >
+											<h4>新三板“海归”概念股两级分化</h4>
+											<p class="author">三个贝壳</p>
+											<p class="date">2017-11-21</p>
+										</div>
+									</div>
+									<p class="zhai">三六零拟借壳江南嘉捷引发市场对中概股回归题材的再度关注。新三板曾是中概股回归的重要渠道之一，“海归”概念股已成为新三板市场不容忽视的一支力量。在这些公司中，有的充分利用新三板的融资功能焕发活力，有的主营业务却深陷泥潭。业内人士认为，“海归”概念公司应理性看待挂牌新三板的优势和不足，加强自身“内功”修炼...</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+									<ul class="index2-inner">
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+										<li><span class="date">2017-11-21</span><a href="">新三板市场现流动性需求共识差异化交易</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 视频中心，移动端不展示 -->
+<div class="index3 hide980 index7">
+	<div class="container">
+		<div class="index2-top">
+			<h3>视频中心</h3>
+			<p>VIDEO CENTER</p>
+		</div>
+		<div class="poster-main" id="carousel" data-setting='{"width":1000,"height":200,"posterWidth":600,"posterHeight":300,"scale":0.8,"speed":1000,"autoPlay":false,"delay":3000,"verticalAlign":"middle"}'> 
+	    	<div class="poster-btn poster-prev-btn"></div> 
+	   		<ul class="poster-list"> 
+				<li class="poster-item">
+					<a href="#">
+						<img src="images/index7-1.png" alt="" width="100%" />
+					</a>
+				</li> 
+				<li class="poster-item">
+					<a href="#">
+						<img src="images/index7-2.png" alt="" width="100%" />
+					</a>
+				</li> 
+				<li class="poster-item">
+					<a href="#">
+						<img src="images/index7-3.png" alt="" width="100%" />
+					</a>
+				</li> 
+				<li class="poster-item">
+					<a href="#">
+						<img src="images/index7-1.png" alt="" width="100%" />
+					</a>
+				</li> 
+				<li class="poster-item">
+					<a href="#">
+						<img src="images/index7-2.png" alt="" width="100%" />
+					</a>
+				</li> 
+		   </ul> 
+		   <div class="poster-btn poster-next-btn"></div> 
+	  </div> 
+	</div>
+</div>
+<!-- 投资百科，移动端不显示-->
+<div class="index8 hide980">
+	<div class="container">
+		<div class="index2-top">
+			<h3>投资百科</h3>
+			<p>BAIKE CENTER</p>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+				<div class="index8-inner">
+					<ul>
+						<a href=""><li>新三板企业——知识产权</li></a>
+						<a href=""><li>什么是私募股权基金?</li></a>
+						<a href=""><li>新三板股权投资为什么适合个人投资者?</li></a>
+						<a href=""><li>中信2017年新三板投资策略：潜龙在渊 待时而动</li></a>
+						<a href=""><li>中国的“纳斯达克”我们到底该不该上？该不该</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+				<div class="index8-inner">
+					<ul>
+						<a href=""><li>该如何去做股权投资</li></a>
+						<a href=""><li>股权投资是什么？</li></a>
+						<a href=""><li>解密种子、天使、VC、PE投资</li></a>
+						<a href=""><li>股权投资的收益有哪些</li></a>
+						<a href=""><li>股权投资风险评估</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 合作券商，移动端不显示 -->
+<div class="index9 hide980">
+	<div class="container">
+		<div class="index2-top">
+			<h3>合作券商</h3>
+			<p>COOPERATIVE BROKER</p>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<div class="index9-inner">
+					<img src="images/index9-1.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<div class="index9-inner">
+					<img src="images/index9-2.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<div class="index9-inner">
+					<img src="images/index9-3.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<div class="index9-inner">
+					<img src="images/index9-4.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<div class="index9-inner">
+					<img src="images/index9-5.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+				<div class="index9-inner">
+					<img src="images/index9-6.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- <div id="index9-con">
+			<ul id="index9-ul"> 
+				<li><a href="#"><img src="images/index9-1.png"/></a></li> 
+				<li><a href="#"><img src="images/index9-1.png"/></a></li> 
+				<li><a href="#"><img src="images/index9-1.png"/></a></li> 
+				<li><a href="#"><img src="images/index9-1.png"/></a></li>  
+				<li><a href="#"><img src="images/index9-1.png"/></a></li> 
+				<li><a href="#"><img src="images/index9-1.png"/></a></li> 
+		    </ul> 
+		</div> -->
+	</div>
+</div>
+<!-- pc端底部，移动端不显示 -->
+<footer class="hide980">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 " >
+				<p class="footer-title">关于我们</p>
+				<p><a href="">公司简介</a></p>
+				<p><a href="">发展历程</a></p>
+				<p><a href="">企业文化</a></p>
+				<p><a href="">安全保障</a></p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 " >
+				<p class="footer-title">帮助中心</p>
+				<p><a href="">新三板</a></p>
+				<p><a href="">免责声明</a></p>
+				<p><a href="">联系我们</a></p>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 footer-wei" >
+				<p class="footer-title">官方微信</p>
+				<a href=""><img src="images/weixin.png" alt=""></a>
+			</div>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 footer-wei" >
+				<p class="footer-title">官方微博</p>
+				<a href=""><img src="images/weibo.png" alt=""></a>
+			</div>
+			<div class="col-xs-12 col-sm-1 col-md-1 col-lg-1 " ></div>
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 " >
+				<p class="footer-title">联系我们</p>
+				<p>400-1616-397</p>
+				<p class="footer-title" style="margin-top:30px;margin-bottom: 8px;">在线咨询</p>
+				<p><a href="">联系我们</a>在线咨询：08:00-23:00</p>
+			</div>
+		</div>
+		<ul>
+			<a href="">首页</a>  |  <a href="">股权项目</a>  |  <a href="">三板资讯</a>  |  <a href="">专题栏目</a>  |  <a href="">原创研究</a>  |  <a href="">视频中心</a>  |  <a href="">网站地图</a> 
+		</ul>
+		<div class="footer-p">
+			<p>©2010-2016 三个贝壳版权所有 沪ICP备16023941号-2</p>
+			<p>公司名称：上海晋启投资管理有限公司 |联系电话：400-1616-397 </p>
+		</div>
+	</div>
+</footer>
+<!-- 移动端首页固定免费通话 -->
+<a href=""><div class="phone show980">
+	<p>点</p><p>击</p><p>免</p><p>费</p><p>通</p><p>话</p>
+</div></a>
+<!-- 移动端固定底部 -->
+<div class="phone-footer show980">
+	<ul>
+		<a href=""><li><img src="images/icon1.png" alt=""><p>主页</p></li></a>
+		<a href=""><li><img src="images/icon1.png" alt=""><p>股权项目</p></li></a>
+		<a href=""><li class="phone-bottom-li"><img src="images/icon2.png" alt=""><p>咨询股价</p></li></a>
+		<a href=""><li><img src="images/icon2.png" alt=""><p>三版资讯</p></li></a>
+		<a href=""><li style="border-right: none;"><img src="images/icon3.png" alt=""><p>关于我们</p></li></a>
+	</ul>
+</div>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/Carousel.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function(){  
+	    $(".nav a").each(function(){  
+	        $this = $(this);  
+	        if($this[0].href==String(window.location)){  
+	            $this.addClass("hover");  
+	        }  
+	    });  
+	});  
+// 首页视频中心
+	$(function(){
+		Carousel.init($("#carousel"));
+		$("#carousel").init();
+	});
+</script>
+</body>
+</html>
